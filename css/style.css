@@ -1,0 +1,101 @@
+/* Geral */
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: Helvetica;
+	color: #323232;
+	border: none;
+}
+
+body {
+	background-image: url('../img/backimg.jpg');
+	background-size: cover;
+
+}
+
+textarea:focus, input:focus {
+	outline: none;
+}
+
+a, label {
+	font-size: .8rem;
+}
+
+a:hover {
+	color: #08558b;
+}
+
+/* Login Container */
+
+#login-container {
+	background-color: #FFFFFF;
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 30px 40px;
+	margin-top: 15vh;
+	border-radius: 12px;
+	text-align: center;
+}
+
+/* Formulário */
+
+form {
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+label, input {
+	display: block;
+	text-align: left;
+	width: 100%;
+}
+
+label {
+	font-weight: bold;
+}
+
+input {
+	border-bottom: 2px solid #348eab;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+
+input:focus {
+	border-bottom: 2px solid #348e00;
+}
+
+#forgot-pass {
+	text-align: right;
+	display: block;
+}
+
+input[type="submit"] {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	border: none;
+	height: 40px;
+	border-radius: 20px;
+	margin-top: 15px;
+	background-color: #2b4f6e;
+	cursor: pointer;
+	color: #FFF;
+}
+
+input[type="submit"]:hover {
+	background-color: #386e9d;
+	transition: .5s;
+}
+
+/* Social Midias */
+
+#social-container {
+	margin: 10px;
+}
+
+#login-container p {
+	margin: 10px;
+}
